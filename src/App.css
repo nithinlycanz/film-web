@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap');
+
+body{
+  box-sizing: border-box;
+  margin:0;
+  background-color: #2F2F2F;
+  color:#e9ecef;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  font-size:4em;
+}
+
+.app {
+  text-align: center;
+  margin: 4%;
+  font-family: 'Ubuntu', sans-serif;
+  display:flex;
+  flex-direction: column;
+  flex:1;
+}
+
+.search-bar input{
+  position:relative;
+  width: 250px;
+  height: 35px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #e9ecef; 
+  background:transparent; 
+  padding: 4px 10px;
+  font-size:20px;
+  font-family: 'Ubuntu', sans-serif;
+  color:#e9ecef;
+}
+
+::placeholder{
+  color:#e9ecef;
+}
+
+.search-image {
+    position:absolute;
+    cursor: pointer;
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+  }  
+  
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex:30%;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  margin : 5%;
+}
+
+.movie{
+  margin-right:30px;
+}
+
+.movie img{
+  width:270px;
+  height:380px;
+  border-radius:15px;
+  margin: 15px 0;
+}
+
+.notFound{
+  margin:5%;
+}
